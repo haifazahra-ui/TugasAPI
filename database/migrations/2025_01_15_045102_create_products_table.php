@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string("photo_name");
             $table->double('price');
             $table->integer('qty');
+            $table->text('description');
             $table->timestamps();
         });
     }
