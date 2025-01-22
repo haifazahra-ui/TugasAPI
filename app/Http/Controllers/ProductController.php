@@ -100,7 +100,7 @@ class ProductController extends Controller
                 'photo' => 'required|image:jpg,jpeg,png',
             ]);
 
-            $request->photo->move(public_path("upload/product"), $data->photo_name);
+            $request->file('photo')->move(public_path("upload/product"), $data->photo_name);
         }
 
         
