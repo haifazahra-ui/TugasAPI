@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Product;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\File;
-use Illuminate\Http\Request;
+use Illuminate\Http\Request; 
 
 
 class ProductController extends Controller
